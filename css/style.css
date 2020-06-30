@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-image: url("../images/background-picture.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: 'Merienda', sans-serif;
+    font-size: 18px;
+}
+
+.currencyConverter {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 15px;
+}
+
+.header {
+    text-align: center;
+    color: blue;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 10px;
+    background-color: burlywood;
+}
